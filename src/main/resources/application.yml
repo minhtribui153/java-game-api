@@ -1,0 +1,23 @@
+server:
+  error:
+    whitelabel:
+      enabled: false
+    include-message: always
+
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5332/game_engine_api
+    username: nocli
+    password: Tri2107@
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    show_sql: false
+  main:
+    web-application-type: servlet

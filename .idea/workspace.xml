@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0148100d-35be-40dc-9e9b-6c9de711d62e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/battleship/Battleship.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/battleship/BattleshipBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/battleship/controllers/BattleshipController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/battleship/interfaces/BattleshipDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/battleship/records/information/AttackStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/battleship/records/information/DefaultInformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/battleship/records/information/PlayerInformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/battleship/records/information/ReadyInformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/battleship/records/information/ShipInformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/battleship/records/request/AddShipRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/battleship/records/request/BattleshipConfigurationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/battleship/records/request/BattleshipRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/battleship/records/request/GuildRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/battleship/records/request/RemoveShipRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/battleship/records/request/ShootRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/battleship/records/response/BattleshipDeleteResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/battleship/records/response/BattleshipResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/battleship/records/response/BoardResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/battleship/records/response/ManageShipResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/battleship/records/response/PlayerBoardResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/battleship/records/response/ShootResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/battleship/repositories/BattleshipDataAccessService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/battleship/services/BattleshipService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/error/ErrorResponseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/error/records/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/exception/InvalidRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/minesweeper/Minesweeper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/minesweeper/MinesweeperBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/ship/Ship.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/ship/controllers/ShipController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/ship/interfaces/ShipDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/ship/interfaces/ShipRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/ship/records/ShipRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/ship/repositories/ShipDataAccessService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/ship/repositories/ShipJPADataAccessService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nocli/ship/services/ShipService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/nocli/battleship/services/BattleshipService.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2KhpI9S15NLv3177gJ9RmHIlssK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/tribui/Desktop/Created Projects/Maven Projects/game-api&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;9fe612814401b1d1f2e984678ff8815a&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.nocli.ship.repositories" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.nocli.Main" />
+      <module name="game-api" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="game-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nocli.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0148100d-35be-40dc-9e9b-6c9de711d62e" name="Changes" comment="" />
+      <created>1674436586770</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674436586770</updated>
+      <workItem from="1674436587870" duration="120000" />
+      <workItem from="1674436733053" duration="1073000" />
+      <workItem from="1674566749428" duration="117000" />
+      <workItem from="1674566873242" duration="555000" />
+      <workItem from="1674567520962" duration="49000" />
+      <workItem from="1674567581673" duration="55000" />
+      <workItem from="1674567650463" duration="96000" />
+      <workItem from="1674567812188" duration="29000" />
+      <workItem from="1674567865214" duration="37000" />
+      <workItem from="1674567915077" duration="35000" />
+      <workItem from="1674567969350" duration="558000" />
+      <workItem from="1674568546243" duration="737000" />
+      <workItem from="1674645988346" duration="1252000" />
+      <workItem from="1674653850276" duration="21000" />
+      <workItem from="1674653877246" duration="51000" />
+      <workItem from="1674654159165" duration="121000" />
+      <workItem from="1674654314676" duration="728000" />
+      <workItem from="1678352066387" duration="1839000" />
+      <workItem from="1679174317368" duration="1282000" />
+      <workItem from="1679312609980" duration="598000" />
+      <workItem from="1680937999831" duration="6225000" />
+      <workItem from="1682201545798" duration="2104000" />
+      <workItem from="1682244932326" duration="2018000" />
+      <workItem from="1683013077316" duration="1192000" />
+      <workItem from="1683519432699" duration="595000" />
+      <workItem from="1684052028319" duration="4792000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
